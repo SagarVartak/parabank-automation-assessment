@@ -1,0 +1,25 @@
+ParaBank Automation Assessment - Test Execution Log
+=====================================================
+Date: 2026-05-22
+Framework: Playwright + playwright-bdd (Gherkin BDD) + Page Object Model
+
+Test Results:
+-------------
+Sign Up (3):
+  ✓ TC-001 Register a new account successfully
+  ✓ TC-002 Sign in with newly created credentials
+  ✓ TC-003 View and log total balance after sign in
+
+Login (6):
+  ✓ TC-004 Login fails with invalid credentials
+  ✓ TC-005 Login fails with empty username
+  ✓ TC-006 Login fails with empty password
+  ✓ TC-007 Login form visible on home page
+  ✓ TC-008 Navigate to forgot login information
+  ✓ TC-009 Logout returns user to login page
+
+Console Output:
+---------------
+Post-login total balance: $515.50
+
+Summary: 9 passed
