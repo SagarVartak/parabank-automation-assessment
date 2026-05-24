@@ -1,0 +1,22 @@
+{
+  "name": "parabank-automation-assessment",
+  "version": "1.0.0",
+  "description": "ParaBank sign-up flow automation - Playwright BDD + POM assessment",
+  "scripts": {
+    "bddgen": "bddgen",
+    "pretest": "bddgen",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "generate:test-cases": "node scripts/generate-test-cases-excel.js"
+  },
+  "keywords": ["playwright", "bdd", "pom", "parabank", "e2e"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1",
+    "exceljs": "^4.4.0",
+    "playwright-bdd": "^8.5.1"
+  }
+}
