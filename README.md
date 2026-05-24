@@ -105,4 +105,4 @@ After a successful test run, check:
 
 ## Author
 
-ParaBank Automation Assessment
+Sagar Vartak
